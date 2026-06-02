@@ -1,4 +1,4 @@
-\# Reseptiarviointi API
+# Reseptiarviointi API
 
 
 
@@ -10,11 +10,11 @@ Sovelluksen aiheena on reseptien arviointi. Sovelluksessa voidaan hallita käytt
 
 
 
-\---
+---
 
 
 
-\## Teknologiat
+## Teknologiat
 
 
 
@@ -37,12 +37,10 @@ Sovelluksen aiheena on reseptien arviointi. Sovelluksessa voidaan hallita käytt
 | MySQL Workbench   | Tietokannan mallinnus ja ER-diagrammi |
 
 
-
-\---
-
+---
 
 
-\## Tietokannan rakenne
+## Tietokannan rakenne
 
 
 
@@ -72,7 +70,7 @@ Taulujen ja sarakkeiden nimet on tietokannassa suomeksi ilman ääkkösiä. API-
 
 
 
-\### Taulujen väliset yhteydet
+### Taulujen väliset yhteydet
 
 
 
@@ -92,7 +90,7 @@ kayttaja  1 ---- \*  arviointi  \* ---- 1  resepti
 
 
 
-\### ER-diagrammi
+### ER-diagrammi
 
 
 
@@ -108,11 +106,11 @@ documentation/reseptiarviointi\_ER.png
 
 
 
-\---
+---
 
 
 
-\## Stored proceduret
+## Stored proceduret
 
 
 
@@ -134,11 +132,11 @@ Ensimmäinen procedure hakee reseptin kaikki arvioinnit. Toinen procedure palaut
 
 
 
-\---
+---
 
 
 
-\## Asennus ja käyttöönotto
+## Asennus ja käyttöönotto
 
 
 
@@ -158,7 +156,7 @@ npm install
 
 
 
-\### 2. Ympäristömuuttujat
+### 2. Ympäristömuuttujat
 
 
 
@@ -202,7 +200,7 @@ Varsinaista `.env`-tiedostoa ei tallenneta versionhallintaan.
 
 
 
-\### 3. Tietokannan luonti
+### 3. Tietokannan luonti
 
 
 
@@ -242,7 +240,7 @@ Tiedostojen tarkoitukset:
 
 
 
-\### 4. Sovelluksen käynnistys
+### 4. Sovelluksen käynnistys
 
 
 
@@ -270,15 +268,15 @@ http://localhost:3000
 
 
 
-\---
+---
 
 
 
-\## API-reitit
+## API-reitit
 
 
 
-\### Yleiset tarkistusreitit
+### Yleiset tarkistusreitit
 
 
 
@@ -292,7 +290,7 @@ GET /api/database-check
 
 
 
-\### Autentikointi
+### Autentikointi
 
 
 
@@ -306,11 +304,11 @@ POST /api/auth/login
 
 
 
-\### Reseptit
+### Reseptit
 
 
 
-Nämä reitit vaativat JWT-tokenin.
+Nämä reitit vaativat JWT-tokenin
 
 
 
@@ -328,7 +326,7 @@ DELETE /api/recipes/:id
 
 
 
-\### Käyttäjät
+### Käyttäjät
 
 
 
@@ -350,7 +348,7 @@ DELETE /api/users/:id
 
 
 
-\### Arvioinnit
+### Arvioinnit
 
 
 
@@ -372,7 +370,7 @@ DELETE /api/reviews/:id
 
 
 
-\### Stored procedure -reitit
+### Stored procedure -reitit
 
 
 
@@ -390,11 +388,11 @@ GET /api/recipes/:id/average-rating
 
 
 
-\---
+---
 
 
 
-\## Autentikointi
+## Autentikointi
 
 
 
@@ -442,11 +440,11 @@ Ilman voimassa olevaa tokenia suojatut reitit palauttavat `401 Unauthorized` -va
 
 
 
-\---
+---
 
 
 
-\## Testaus
+## Testaus
 
 
 
@@ -466,25 +464,25 @@ Postman-kokoelmassa on testit seuraaville kokonaisuuksille:
 
 
 
-\* tarkistuspyynnöt
+* tarkistuspyynnöt
 
-\* autentikointi
+* autentikointi
 
-\* reseptit
+* reseptit
 
-\* käyttäjät
+* käyttäjät
 
-\* arvioinnit
+* arvioinnit
 
-\* stored procedure -reitit
-
-
-
-\---
+* stored procedure -reitit
 
 
 
-\## Esittelyvideo
+---
+
+
+
+## Esittelyvideo
 
 
 
