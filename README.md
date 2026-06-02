@@ -53,6 +53,10 @@ ER-diagrammi löytyy kansiosta:
 documentation/reseptiarviointi_ER.png
 ```
 
+Alla myös suoraan kuva tietokannan ER-diagrammista:
+
+<img src="documentation/reseptiarviointi_ER.png" alt="ER-diagrammi" width="700">
+
 ---
 
 ## Stored proceduret
