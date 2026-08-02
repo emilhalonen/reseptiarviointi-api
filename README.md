@@ -1,6 +1,6 @@
 # Reseptiarviointi API
 
-Tämä repositorio sisältää Tietokannat ja rajapinnat -kesäkurssin harjoitustyön. Projektissa on toteutettu REST API Node.js- ja Express-kehyksellä sekä MySQL-tietokannalla.
+Tämä repo sisältää Tietokannat ja rajapinnat -kesäkurssin harjoitustyön. Projektissa on toteutettu REST API Node.js- ja Express-kehyksellä sekä MySQL-tietokannalla.
 
 Sovelluksen aiheena on reseptien arviointi. Sovelluksessa voidaan hallita käyttäjiä, reseptejä ja arviointeja. Taso 2- mukaisesti sovellukseen on tehty myös JWT-pohjainen bearer token autentikointi.
 
