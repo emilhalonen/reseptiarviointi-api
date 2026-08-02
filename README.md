@@ -237,7 +237,7 @@ Postman-kokoelmassa on testit seuraaville kokonaisuuksille:
 ---
 
 ## Esittelyvideo
-Minulla oli vaikeuksia nauhoittaessa mikrofonin toiminnan kanssa, toivottavasti ytimekkäänä pidetty video tietokannan toiminnasta sekä taustamusiikki on tässäkohtaa riittävä.
+Minulla oli vaikeuksia nauhoittaessa mikrofonin toiminnan kanssa, toivottavasti ytimekkäänä pidetty video tietokannan perustoiminnasta sekä taustamusiikki on tässäkohtaa riittävä. Harjoitukseen kuitenkin paloi helposti yli sata työtuntia, niin pitihän esittely teitenkin jättää viimetippaan palautusillalle.
 
 
 Linkki esittelyvideoon:
