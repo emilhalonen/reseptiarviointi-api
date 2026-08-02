@@ -35,15 +35,6 @@ Tietokannassa on neljä taulua:
 
 Taulujen ja sarakkeiden nimet ovat tietokannassa suomeksi ilman ääkkösiä. API-reitit ja JSON-kentät ovat englanniksi.
 
-### Taulujen väliset yhteydet
-
-```text
-kayttaja  1 ---- 1  user
-
-kayttaja  1 ---- *  arviointi  * ---- 1  resepti
-```
-
-`arviointi`-taulussa on viiteavaimet `kayttaja`- ja `resepti`-tauluihin. `user`-taulu on liitetty `kayttaja`-tauluun kirjautumista varten.
 
 ### ER-diagrammi
 
