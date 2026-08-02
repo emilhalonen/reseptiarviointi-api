@@ -14,7 +14,7 @@ Sovelluksen aiheena on reseptien arviointi. Sovelluksessa voidaan hallita käytt
 | MySQL + mysql2    | Tietokanta ja tietokantayhteydet      |
 | bcryptjs          | Salasanojen hajautus                  |
 | jsonwebtoken      | JWT-autentikointi                     |
-| dotenv            | Ympäristömuuttujat                    |
+| dotenv            | Node.js-kirjasto                      |
 | Postman           | API:n testaus                         |
 | MySQL Workbench   | Tietokannan mallinnus ja ER-diagrammi |
 
@@ -33,7 +33,7 @@ Tietokannassa on neljä taulua:
 | `arviointi` | Yhdistää käyttäjän ja reseptin sekä sisältää tähtimäärän, kommentin ja arviointipäivän |
 | `user`      | Kirjautumistiedot, jossa salasana tallennetaan bcrypt-hajautettuna                     |
 
-Taulujen ja sarakkeiden nimet ovat tietokannassa suomeksi ilman ääkkösiä. API-reitit ja JSON-kentät ovat englanniksi.
+Taulujen ja sarakkeiden nimet ovat tietokannassa suomeksi ilman äääkkösiä. API-reitit ja JSON-kentät ovat englanniksi
 
 
 ### ER-diagrammi
@@ -59,7 +59,7 @@ Tietokantaan on toteutettu kaksi stored procedurea:
 | `hae_reseptin_arvioinnit` | `GET /api/recipes/:id/reviews`        |
 | `hae_reseptin_keskiarvo`  | `GET /api/recipes/:id/average-rating` |
 
-Ensimmäinen procedure hakee reseptin kaikki arvioinnit. Toinen procedure palauttaa reseptin arviointien lukumäärän sekä keskiarvon.
+Ensimmäinen procedure hakee reseptin kaikki arvioinnit. Toinen procedure antaa reseptin arviointien lukumäärän sekä keskiarvon
 
 ---
 
