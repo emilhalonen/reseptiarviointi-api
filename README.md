@@ -6,7 +6,7 @@ Sovelluksen aiheena on reseptien arviointi. Sovelluksessa voidaan hallita käytt
 
 ---
 
-## Teknologiat
+## Käytetyt Teknologiat
 
 | Tekniikka         | Käyttötarkoitus                       |
 | ----------------- | ------------------------------------- |
@@ -93,7 +93,7 @@ PORT=3000
 JWT_SECRET=oma_salainen_avain
 ```
 
-Varsinaista `.env`-tiedostoa ei tallenneta versionhallintaan.
+Varsinaista `.env`-tiedostoa ei tietenkään tallenneta versionhallintaan!
 
 ### 3. Tietokannan luonti
 
@@ -117,7 +117,7 @@ Tiedostojen tarkoitukset:
 
 ### 4. Sovelluksen käynnistys
 
-Käynnistä sovellus kehitystilassa:
+Käynnistä sovellus kehitystilassa step by step quide:
 
 ```bash
 npm run dev
@@ -219,7 +219,7 @@ Ilman voimassa olevaa tokenia suojatut reitit palauttavat `401 Unauthorized` -va
 
 ## Testaus
 
-API on testattu Postmanilla. Postman-kokoelma löytyy kansiosta:
+API on testattu läpikotaisin Postmanilla. Postman-kokoelma löytyy kansiosta:
 
 ```text
 documentation/reseptiarviointi_postman_collection.json
