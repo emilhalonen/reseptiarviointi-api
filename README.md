@@ -238,4 +238,6 @@ Postman-kokoelmassa on testit seuraaville kokonaisuuksille:
 
 ## Esittelyvideo
 Minulla oli vaikeuksia nauhoittaessa mikrofonin kanssa, toivottavasti videomateriaali tietokannan toiminnasta on riittävä.
-Linkki esittelyvideoon:
+Linkki esittelyvideoihin:
+Postman:
+https://unioulu-my.sharepoint.com/:v:/r/personal/ehalonen25_students_oamk_fi/Documents/Videot/Clipchamp/Desktop%202026.08.02%20-%2021.58.53.13/Exports/Postman_1.mp4?d=w7da8bc132e344009b10da8c4755a0ec3&csf=1&web=1&e=KXhS4w
